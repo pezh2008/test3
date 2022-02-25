@@ -1,55 +1,127 @@
 
-/* 
-.main {
-}
-.contaner-main {
-    max-width: 1200px;
+.steps__contaner {
+    max-width: 72rem;
     margin: 0 auto;
-    padding: 96px 0px 0px 0px;
+    padding: 6rem 1.5rem 0px 1.5rem;
 }
-.steps {
-}
-.steps-title {
-    display: flex;
-    justify-content: center;
-}
-.steps-subtitle {
+
+.steps__title {
+    text-align: center;
     font-weight: 600;
-    font-size: 30px;
-    line-height: 37px;
+    font-size: 1.9rem;
+    line-height: 2.1rem;
+    margin: 0px 0px 4.1rem 0px;
     
 }
-.steps1-2 {
+
+.steps__content {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     
-}
-.steps1 {
-    
-    
-}
-.steps-text1 {
-    font-weight: 300;
-    font-size: 50px;
-    line-height: 61px;
-}
-.steps-text2 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-}
-.steps-text3 {
-    font-size: 16px;
-    line-height: 21px;
 
 }
-.steps2 {
-}
-.steps3-4 {
+.step {
+    width: 47%;
+    margin: 0px 0px 4rem 0px;
     display: flex;
-    justify-content: center;
+    gap: 2rem;
+
+    
+   
 }
-.steps3 {
+
+.step__number {
+    font-weight: 300;
+    font-size: 3.1rem;
+    line-height: 3.8rem;
+    text-shadow: 0.1rem  0px #FED100;;
+    
+    
+}   
+
+.step__title {
+    font-weight: 31rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin: 0px 0px 1rem 0px ;
 }
-.steps4 {
-} */
+
+.step__text {
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+
+@media( max-width: 860px ){
+    .steps__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;      
+    }
+    .step__number{
+        font-size: 5.6rem;
+        font-weight: 300;
+        line-height: 6.9rem;
+    }
+    .step__title{
+        font-weight: 500;
+        font-size: 1.5rem;
+        list-style: 2rem;
+    }
+    .step__text{
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+    }
+@media( max-width: 480px ){
+
+ .steps__content{
+         
+        
+         }  
+
+        .step__number{
+            font-size: 5.6rem;
+            font-weight: 300;
+            line-height: 6.9rem;
+        }
+        .step__title{
+            font-weight: 500;
+            font-size: 1.5rem;
+            list-style: 2rem;
+        }
+        .step__text{
+            font-size: 1rem;
+            line-height: 1.3rem;
+        }
+    }
+
+.test {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    border: 2px solid black;
+}
+.test1 {
+    height: 50px;
+    width: 500px;
+    background-color: aqua;
+
+}
+
+.test2 {
+    height: 50px;
+    width: 600px;
+    background-color: rgb(0, 255, 21);
+}
+
+.test3 {
+    height: 50px;
+    width: 300px;
+    background-color: rgb(255, 0, 128);
+
+} 

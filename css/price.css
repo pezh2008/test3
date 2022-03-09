@@ -1,0 +1,115 @@
+.price__contaner {
+    max-width: 78rem;
+    margin: 0 auto 6rem auto;
+    padding: 6rem 1.5rem 0 1.5rem;
+}
+
+.price__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 3.1rem;
+}
+
+.price__subtitle {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    margin: 0px 0px 2.5rem 0px;
+}
+
+.price__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.price__card {
+    border: 1px solid #EBEBEB;
+    padding: 2rem 1rem;
+}
+
+.price__card:hover {
+    border: 1px solid var(--yellow);
+}
+
+.price__items {}
+
+.price__flat {}
+
+.price__room {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    text-align: center;
+    margin: 0px 0px 3.8rem 0px;
+}
+
+.price__van {
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin: 0 0 1.6rem 0;
+}
+
+.price__loader {
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin: 0 0 1.6rem 0;
+}
+
+.price__time {
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin: 0 0 3.8rem 0;
+}
+
+.price__price {
+    margin: 0 0 3.25rem 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.price__button {
+    display: flex;
+    justify-content: center;
+}
+
+.price__button span {
+    background-color: yellow;
+    padding: 0.8rem 3rem 0.8rem 3rem;
+    cursor: pointer;
+}
+
+.price__button span:hover {
+    background-color: rgb(240, 240, 86);
+}
+
+.price__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+@media(max-width: 760px) {
+    .price__content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width: 480px) {
+    .price__content {
+        grid-template-columns: 1fr;
+    }
+}

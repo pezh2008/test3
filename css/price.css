@@ -16,7 +16,7 @@
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 1.7rem;
-    margin: 0px 0px 2.5rem 0px;
+    margin: 0 0 2.5rem 0;
 }
 
 .price__content {
@@ -39,7 +39,7 @@
     font-size: 1.5rem;
     line-height: 1.7rem;
     text-align: center;
-    margin: 0px 0px 3.8rem 0px;
+    margin: 0 0 3.8rem 0;
 }
 
 .price__van {

@@ -1,0 +1,195 @@
+.banner {
+    background-color: var(--yellow);
+}
+
+.banner__contaner {
+    max-width: 78rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.header {
+    margin: 0 0 5rem 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 0 0 0;
+    align-items: center;
+}
+
+.header__logo {
+    font-family: "Roboto";
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+    font-weight: 600;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.9rem;
+    font-size: 1.1rem;
+}
+
+.header__link {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    line-height: 1.4rem;
+}
+
+.header__phone {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    display: flex;
+    align-items: center;
+    text-decoration: underline
+}
+
+.header__burger {
+    display: none;
+}
+
+.banner__content {
+    display: flex;
+}
+
+.banner__calumn {
+    width: 50%;
+}
+
+.banner__title {
+    font-weight: bold;
+    font-size: 4.4rem;
+    margin: 0 0 1.8rem 0;
+    line-height: 4.8rem;
+}
+
+.banner__subtitle {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+    margin: 0 0 3.5rem 0;
+}
+
+.banner__button {
+    cursor: pointer;
+    background-color: var(--red);
+    color: var(--white);
+    display: inline-block;
+    padding: 1rem 5.6rem 1rem 5.9rem;
+    margin: 0 0 4rem 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    box-shadow: 0.5rem 0.4rem;
+}
+
+.banner__button:hover {
+    background-color: black;
+}
+
+.banner__pluses {
+    display: flex;
+    gap: 1.9rem;
+    margin: 0 0 6.25rem 0;
+}
+
+.banner__plus {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.banner__img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: -7.5rem 0 0 0;
+}
+
+.banner__img img {
+    width: 100%;
+    height: 100%;
+}
+
+@media( max-width: 1060px) {
+    .banner__pluses {
+        display: block;
+    }
+    .banner__plus {
+        margin: 0 0 1.5rem 0;
+    }
+}
+
+@media(max-width: 860px) {
+    .header__menu {
+        display: none;
+    }
+    .banner__content {
+        display: block;
+    }
+    .banner__img {
+        width: 100%;
+        display: block;
+        margin: 6.25rem 0 0 0;
+    }
+    .banner__calumn {
+        width: 100%;
+    }
+}
+
+@media(max-width: 480px) {
+    .banner__title {
+        font-size: 3.1rem;
+        margin: 0 0 1.5rem 0;
+        line-height: 3.6rem;
+    }
+    .banner__contaner {
+        padding: 0px 1rem;
+    }
+    .banner__subtitle {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin: 0 0 3.1rem 0;
+    }
+    .header__phone {
+        display: none;
+    }
+    .banner__button {
+        padding: 1rem 3.75rem 1rem 3.75rem;
+    }
+    .header__burger {
+        display: inline-block;
+        width: 3rem;
+        height: 0.125rem;
+        background-color: black;
+        position: relative;
+        cursor: pointer;
+    }
+    .header__burger::before {
+        cursor: pointer;
+        content: "";
+        width: 3rem;
+        height: 0.125rem;
+        background-color: black;
+        position: absolute;
+        top: 0.5rem;
+        left: 0;
+    }
+    .header__burger::after {
+        cursor: pointer;
+        content: "";
+        width: 3rem;
+        height: 0.125rem;
+        background-color: black;
+        position: absolute;
+        top: -0.5rem;
+        left: 0;
+    }
+}

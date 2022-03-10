@@ -5,7 +5,7 @@
 .banner__contaner {
     max-width: 78rem;
     margin: 0 auto;
-    padding: 0px 1.5rem;
+    padding: auto 1.5rem;
 }
 
 .header {

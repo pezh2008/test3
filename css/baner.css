@@ -47,7 +47,7 @@
     line-height: 1.8rem;
     display: flex;
     align-items: center;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .header__burger {
@@ -118,7 +118,7 @@
     height: 100%;
 }
 
-@media( max-width: 1060px) {
+@media (max-width: 1060px) {
     .banner__pluses {
         display: block;
     }
@@ -127,7 +127,7 @@
     }
 }
 
-@media(max-width: 860px) {
+@media (max-width: 860px) {
     .header__menu {
         display: none;
     }
@@ -144,7 +144,7 @@
     }
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
     .banner__title {
         font-size: 3.1rem;
         margin: 0 0 1.5rem 0;

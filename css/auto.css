@@ -1,0 +1,103 @@
+.auto__cortaner {
+    max-width: 74rem;
+    margin: 0 auto 3rem auto;
+    padding: 0 5rem 0 5rem;
+}
+
+.auto__title {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+}
+
+.auto__subtitle {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    font-weight: 600;
+    margin: 0 0 4rem 0;
+}
+
+.auto__menu {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin: 0 0 1.5rem 0;
+}
+
+.auto__truck {
+    border: 1px solid var(--white);
+    padding: 0.8rem 4rem;
+}
+
+.auto__truck:hover {
+    border: 1px solid var(--yellow);
+}
+
+.auto__content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.auto__slider {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+}
+
+.auto__price {
+    padding: 4rem 0;
+}
+
+.auto__list {}
+
+.auto__lis {
+    display: flex;
+    margin: 0 0 1.8rem 0;
+    gap: 1rem;
+    white-space: nowrap;
+}
+
+.auto__button {}
+
+.auto__img {}
+
+.auto__car {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    font-weight: 600;
+    font-size: 5rem;
+}
+
+.auto__long {
+    margin: 0 0 2.4rem 0;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    font-weight: 600;
+}
+
+.auto__button {
+    text-align: center;
+    background-color: var(--yellow);
+    padding: 0.8rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+.price__card {
+    border: 1px solid var(--white);
+    padding: 2rem 1rem;
+}
+
+.price__card:hover {
+    border: 1px solid var(--yellow);
+}
+
+.text__span {
+    background-color: green;
+    color: red;
+    font-size: 3rem;
+}

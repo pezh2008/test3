@@ -1,6 +1,7 @@
 @import url(./baner.css);
 @import url(./steps.css);
 @import url(./price.css);
+@import url(./auto.css);
 *,
 *::before,
 *::after {
@@ -42,12 +43,12 @@ html {
 }
 
 body {
-    font-family: 'Comforter', cursive;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Comforter", cursive;
+    font-family: "Roboto", sans-serif;
     line-height: 1;
-    --yellow: #FED100;
+    --yellow: #fed100;
     --black: #333333;
-    --red: #FF352B;
+    --red: #ff352b;
     --white: #fff;
 }
 

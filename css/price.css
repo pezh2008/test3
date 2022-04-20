@@ -93,13 +93,13 @@
     text-align: center;
 }
 
-@media(max-width: 760px) {
+@media (max-width: 760px) {
     .price__content {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media(max-width: 480px) {
+@media (max-width: 480px) {
     .price__content {
         grid-template-columns: 1fr;
     }

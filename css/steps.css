@@ -40,7 +40,19 @@
     line-height: 1.2rem;
 }
 
-@media(max-width:480px) {
+@media (max-width: 800px) {
+    .steps__content {
+        grid-template-columns: 1fr;
+    }
+    .step {
+        justify-content: center;
+    }
+    .step__title {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
     .steps__content {
         grid-template-columns: 1fr;
     }
